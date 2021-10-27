@@ -9,11 +9,8 @@ import {
     ScrollView,
     Platform
 } from 'react-native';
-
 import LinearGradient from 'react-native-linear-gradient';
-
 import { ProgressBar } from "../components"
-
 import { COLORS, SIZES, FONTS, icons } from "../constants"
 
 const MovieDetail = ({ navigation, route }) => {
