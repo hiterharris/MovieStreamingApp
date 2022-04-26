@@ -532,12 +532,13 @@
 				DEVELOPMENT_TEAM = KY84WX37NA;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MovieStreamingApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -562,12 +563,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KY84WX37NA;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MovieStreamingApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
