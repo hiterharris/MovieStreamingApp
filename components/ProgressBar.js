@@ -3,7 +3,6 @@ import {
     View,
     Text
 } from 'react-native';
-
 import { COLORS, SIZES } from "../constants"
 
 const ProgressBar = ({ containerStyle, barStyle, barPercentage }) => {
