@@ -1,15 +1,8 @@
 import React from "react";
-import {
-    View,
-    Image,
-    TouchableOpacity,
-    Text,
-    StyleSheet
-} from "react-native";
-import { createBottomTabNavigator, BottomTabBar } from "@react-navigation/bottom-tabs"
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 
 import { Home } from "../screens"
-import { COLORS, FONTS, icons } from "../constants"
+import { COLORS, icons } from "../constants"
 
 import { TabIcon } from "../components"
 
