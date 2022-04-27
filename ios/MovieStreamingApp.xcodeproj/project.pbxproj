@@ -16,6 +16,8 @@
 		1F3E4CF43AF940B1A72D2CA7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1B5D91E6D0489496BB2F9B /* Roboto-Regular.ttf */; };
 		2650C4E931F2441DB1782260 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA26D2DA06407B94B2F426 /* Roboto-ThinItalic.ttf */; };
 		291C178E391C4400AA19BA33 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BE93FAD56B049DA8745965E /* RobotoCondensed-LightItalic.ttf */; };
+		31938BB42818BE8600B682FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		31938BB52818BE9100B682FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		34E66F247650486ABF0FC3B8 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D65BEA852440E498678A7F /* Roboto-Thin.ttf */; };
 		359665332B4847EB916B259C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 955AC86C0AA2480088213217 /* Roboto-Medium.ttf */; };
 		4A80E64D790744D4AA8CCB7D /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D44C211A404B4B8A95559068 /* RobotoCondensed-Light.ttf */; };
@@ -295,6 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31938BB52818BE9100B682FC /* Images.xcassets in Resources */,
+				31938BB42818BE8600B682FC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +479,7 @@
 			baseConfigurationReference = E8F11C05B7070358326FAE42 /* Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KY84WX37NA;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -503,6 +508,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = KY84WX37NA;
 				INFOPLIST_FILE = MovieStreamingAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -533,6 +539,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KY84WX37NA;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MovieStreamingApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -541,13 +548,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiterharris.MovieStreamingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStreamingApp.hiterharris;
 				PRODUCT_NAME = MovieStreamingApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -567,6 +574,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KY84WX37NA;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm54;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MovieStreamingApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -575,13 +583,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiterharris.MovieStreamingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStreamingApp.hiterharris;
 				PRODUCT_NAME = MovieStreamingApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -622,7 +630,6 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -687,7 +694,6 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
