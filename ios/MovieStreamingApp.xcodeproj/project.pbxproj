@@ -496,7 +496,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStream.hiterharris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieStreamingApp.app/MovieStreamingApp";
 			};
@@ -521,7 +521,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStream.hiterharris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieStreamingApp.app/MovieStreamingApp";
 			};
@@ -541,7 +541,7 @@
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MovieStreamingApp;
+				INFOPLIST_KEY_CFBundleDisplayName = MovieStream;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -555,7 +555,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStreamingApp.hiterharris;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStream.hiterharris;
 				PRODUCT_NAME = MovieStreamingApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -577,7 +577,7 @@
 				DEVELOPMENT_TEAM = KY84WX37NA;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm54;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MovieStreamingApp;
+				INFOPLIST_KEY_CFBundleDisplayName = MovieStream;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -591,7 +591,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStreamingApp.hiterharris;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieStream.hiterharris;
 				PRODUCT_NAME = MovieStreamingApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
