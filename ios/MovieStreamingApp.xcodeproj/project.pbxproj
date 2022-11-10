@@ -21,6 +21,7 @@
 		34E66F247650486ABF0FC3B8 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D65BEA852440E498678A7F /* Roboto-Thin.ttf */; };
 		359665332B4847EB916B259C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 955AC86C0AA2480088213217 /* Roboto-Medium.ttf */; };
 		4A80E64D790744D4AA8CCB7D /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D44C211A404B4B8A95559068 /* RobotoCondensed-Light.ttf */; };
+		5863524BA93959EE18000A65 /* libPods-MovieStreamingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF217F2FFB2EA336EA055017 /* libPods-MovieStreamingApp.a */; };
 		618784FCBAF94D0BB160B2E7 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB963C62CD7748588F50CB79 /* RobotoCondensed-BoldItalic.ttf */; };
 		78387FB750B647C1AB504319 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61BBAA8F11214D9C9CB1190F /* RobotoCondensed-Italic.ttf */; };
 		7B4605179540419480E1BBF1 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC50BC2C65D94A5E9EB0B556 /* Roboto-Italic.ttf */; };
@@ -29,11 +30,10 @@
 		8F18088CEBE94AF799E2C0C8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95AB5379081445D380BCBDBD /* Roboto-Bold.ttf */; };
 		B51713C4666B4476BAAE0E83 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 956E773E7F364DBBB7DF0018 /* RobotoCondensed-Regular.ttf */; };
 		C47C28B00F2F4F80A654E52A /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AB09E09E540BA842240FC /* Roboto-BoldItalic.ttf */; };
-		D1B1CBA10D0F89E7775C54FC /* libPods-MovieStreamingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F2C75657EF12F1A36DA1A /* libPods-MovieStreamingApp.a */; };
+		CC7C9F9079AB16ACC4CB565C /* libPods-MovieStreamingApp-MovieStreamingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C79EDEB1927635014F3E0F85 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a */; };
 		E5C0B148D3594E0D9A9BFE6E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13A7A9E6F29545A8850B3169 /* Roboto-Light.ttf */; };
 		F58BD19D14814797B1519B28 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3271EA8DDD0047A5AFD80734 /* Roboto-Black.ttf */; };
 		FC03969CC6604D31A7EA8C3B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4FD3EED3B9143C2949E387A /* Roboto-BlackItalic.ttf */; };
-		FDD04FF5BA90CC7A76301269 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D19AD7CF6A5F6FF29163E658 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,27 +61,27 @@
 		3C2AB09E09E540BA842240FC /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		3CFA26D2DA06407B94B2F426 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		51902F41D38149E697096899 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		5A6589C7A5AD4BDCF85F2BA4 /* Pods-MovieStreamingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp.release.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp.release.xcconfig"; sourceTree = "<group>"; };
 		61BBAA8F11214D9C9CB1190F /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
 		726156F459E34C42A6903E59 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		7BE93FAD56B049DA8745965E /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
-		7F5F067A8406127D5310DAFD /* Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MovieStreamingApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955AC86C0AA2480088213217 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		956E773E7F364DBBB7DF0018 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		95AB5379081445D380BCBDBD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		9751A2EF3F8BCA95445A4905 /* Pods-MovieStreamingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp.release.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp.release.xcconfig"; sourceTree = "<group>"; };
+		95C776524CBC3F58AFD40AE0 /* Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB963C62CD7748588F50CB79 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
-		BABFB00CB8B9C551971D47EB /* Pods-MovieStreamingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp.debug.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp.debug.xcconfig"; sourceTree = "<group>"; };
-		C06F2C75657EF12F1A36DA1A /* libPods-MovieStreamingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieStreamingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19AD7CF6A5F6FF29163E658 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieStreamingApp-MovieStreamingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68FB86D97605ED97B019F40 /* Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C79EDEB1927635014F3E0F85 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieStreamingApp-MovieStreamingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44C211A404B4B8A95559068 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		D4FD3EED3B9143C2949E387A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		DC1B5D91E6D0489496BB2F9B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		E0D65BEA852440E498678A7F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		E8F11C05B7070358326FAE42 /* Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC50BC2C65D94A5E9EB0B556 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F89507B86BB176512E6C1067 /* Pods-MovieStreamingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieStreamingApp.debug.xcconfig"; path = "Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FCD2941EC04D4559BB1DF660 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		FF217F2FFB2EA336EA055017 /* libPods-MovieStreamingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieStreamingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD04FF5BA90CC7A76301269 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a in Frameworks */,
+				CC7C9F9079AB16ACC4CB565C /* libPods-MovieStreamingApp-MovieStreamingAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B1CBA10D0F89E7775C54FC /* libPods-MovieStreamingApp.a in Frameworks */,
+				5863524BA93959EE18000A65 /* libPods-MovieStreamingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,10 +124,10 @@
 		103588DD4EDBC4D30857F951 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BABFB00CB8B9C551971D47EB /* Pods-MovieStreamingApp.debug.xcconfig */,
-				9751A2EF3F8BCA95445A4905 /* Pods-MovieStreamingApp.release.xcconfig */,
-				E8F11C05B7070358326FAE42 /* Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig */,
-				7F5F067A8406127D5310DAFD /* Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig */,
+				F89507B86BB176512E6C1067 /* Pods-MovieStreamingApp.debug.xcconfig */,
+				5A6589C7A5AD4BDCF85F2BA4 /* Pods-MovieStreamingApp.release.xcconfig */,
+				B68FB86D97605ED97B019F40 /* Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig */,
+				95C776524CBC3F58AFD40AE0 /* Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				C06F2C75657EF12F1A36DA1A /* libPods-MovieStreamingApp.a */,
-				D19AD7CF6A5F6FF29163E658 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a */,
+				FF217F2FFB2EA336EA055017 /* libPods-MovieStreamingApp.a */,
+				C79EDEB1927635014F3E0F85 /* libPods-MovieStreamingApp-MovieStreamingAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,11 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MovieStreamingAppTests" */;
 			buildPhases = (
-				B4BFE9B0B8EBB3960174F840 /* [CP] Check Pods Manifest.lock */,
+				577D66FD9AEF24F0AA884675 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				6F1451380BF097F1DE7E0561 /* [CP] Copy Pods Resources */,
+				FA2B5FFE7A9FE8BE6C240C8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,13 +239,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MovieStreamingApp" */;
 			buildPhases = (
-				E3EA26FDA2E2E11DA07C97D8 /* [CP] Check Pods Manifest.lock */,
+				562AA2AD1B27EE68AC4610DC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				1AD3F27C31B72EC16640A46B /* [CP] Copy Pods Resources */,
+				58551C3A1E5F99BFF4391B4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,41 +346,29 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		1AD3F27C31B72EC16640A46B /* [CP] Copy Pods Resources */ = {
+		562AA2AD1B27EE68AC4610DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieStreamingApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F1451380BF097F1DE7E0561 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4BFE9B0B8EBB3960174F840 /* [CP] Check Pods Manifest.lock */ = {
+		577D66FD9AEF24F0AA884675 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,26 +390,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E3EA26FDA2E2E11DA07C97D8 /* [CP] Check Pods Manifest.lock */ = {
+		58551C3A1E5F99BFF4391B4D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MovieStreamingApp-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2B5FFE7A9FE8BE6C240C8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -476,7 +476,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8F11C05B7070358326FAE42 /* Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig */;
+			baseConfigurationReference = B68FB86D97605ED97B019F40 /* Pods-MovieStreamingApp-MovieStreamingAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KY84WX37NA;
@@ -504,7 +504,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F5F067A8406127D5310DAFD /* Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig */;
+			baseConfigurationReference = 95C776524CBC3F58AFD40AE0 /* Pods-MovieStreamingApp-MovieStreamingAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -529,7 +529,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BABFB00CB8B9C551971D47EB /* Pods-MovieStreamingApp.debug.xcconfig */;
+			baseConfigurationReference = F89507B86BB176512E6C1067 /* Pods-MovieStreamingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -541,7 +541,7 @@
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MovieStream;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Later";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -566,7 +566,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9751A2EF3F8BCA95445A4905 /* Pods-MovieStreamingApp.release.xcconfig */;
+			baseConfigurationReference = 5A6589C7A5AD4BDCF85F2BA4 /* Pods-MovieStreamingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -577,7 +577,7 @@
 				DEVELOPMENT_TEAM = KY84WX37NA;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm54;
 				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MovieStream;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Later";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
