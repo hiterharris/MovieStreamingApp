@@ -11,13 +11,13 @@
 		00E356F31AD99517003FC87E /* MovieStreamingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MovieStreamingAppTests.m */; };
 		0E18C2D38F4C4B809F35B2B5 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 726156F459E34C42A6903E59 /* Roboto-MediumItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FBF1A68108700A75B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Assets.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1F3E4CF43AF940B1A72D2CA7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1B5D91E6D0489496BB2F9B /* Roboto-Regular.ttf */; };
 		2650C4E931F2441DB1782260 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA26D2DA06407B94B2F426 /* Roboto-ThinItalic.ttf */; };
 		291C178E391C4400AA19BA33 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BE93FAD56B049DA8745965E /* RobotoCondensed-LightItalic.ttf */; };
 		31938BB42818BE8600B682FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		31938BB52818BE9100B682FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		31938BB52818BE9100B682FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Assets.xcassets */; };
 		34E66F247650486ABF0FC3B8 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D65BEA852440E498678A7F /* Roboto-Thin.ttf */; };
 		359665332B4847EB916B259C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 955AC86C0AA2480088213217 /* Roboto-Medium.ttf */; };
 		4A80E64D790744D4AA8CCB7D /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D44C211A404B4B8A95559068 /* RobotoCondensed-Light.ttf */; };
@@ -54,7 +54,7 @@
 		13B07F961A680F5B00A75B9A /* MovieStreamingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieStreamingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MovieStreamingApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MovieStreamingApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MovieStreamingApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MovieStreamingApp/Assets.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MovieStreamingApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MovieStreamingApp/main.m; sourceTree = "<group>"; };
 		3271EA8DDD0047A5AFD80734 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB51A68108700A75B9A /* Assets.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -297,7 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31938BB52818BE9100B682FC /* Images.xcassets in Resources */,
+				31938BB52818BE9100B682FC /* Assets.xcassets in Resources */,
 				31938BB42818BE8600B682FC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBF1A68108700A75B9A /* Assets.xcassets in Resources */,
 				F58BD19D14814797B1519B28 /* Roboto-Black.ttf in Resources */,
 				FC03969CC6604D31A7EA8C3B /* Roboto-BlackItalic.ttf in Resources */,
 				8F18088CEBE94AF799E2C0C8 /* Roboto-Bold.ttf in Resources */,
